@@ -1,0 +1,35 @@
+dependencies:
+  directory-import: 2.3.1
+lockfileVersion: 5.2
+packages:
+  /bluebird/3.7.2:
+    dev: false
+    resolution:
+      integrity: sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
+  /callsites/3.1.0:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
+  /directory-import/2.3.1:
+    dependencies:
+      bluebird: 3.7.2
+      callsites: 3.1.0
+      lodash.foreach: 4.5.0
+      lodash.merge: 4.6.2
+    dev: false
+    engines:
+      node: '>=8.3.0'
+    resolution:
+      integrity: sha512-NvxZ35pEVBpeHEqcj8y+2wLjtKbkyRdQnAhrWMBU2XyTJdAemkZ2K3xpUqxsF5WmJrAk/JJgZfw7Ouf5Ola35Q==
+  /lodash.foreach/4.5.0:
+    dev: false
+    resolution:
+      integrity: sha512-aEXTF4d+m05rVOAUG3z4vZZ4xVexLKZGF0lIxuHZ1Hplpk/3B6Z1+/ICICYRLm7c41Z2xiejbkCkJoTlypoXhQ==
+  /lodash.merge/4.6.2:
+    dev: false
+    resolution:
+      integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
+specifiers:
+  directory-import: ^2.3.1
